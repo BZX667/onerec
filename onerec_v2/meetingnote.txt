@@ -104,6 +104,6 @@ pos_seq-item 和 neg_seq-item 提取就相当于对比学习里面的信息增�
 
 2.4  multi-business-domain 跨业务域场景建模，直播，短视频，电商，社交，金融。-zhuoxi/kexin/wenhao
 方案：使用域迁移，把domain1的u2u关系迁移到domain2，解决domain1的新用户问题。
-下周：和zhuoxi一起细化方案. recbole。 补一张图？
+下周：和zhuoxi一起细化方案. recbole。 飞书文档：https://yq1laz1xqm.feishu.cn/docx/T5CddqzORoDh9HxuXbUcbD6Pnth?from=from_copylink
 
 
