@@ -170,7 +170,7 @@ pos_seq-item 和 neg_seq-item 提取就相当于对比学习里面的信息增�
 * 方案简介：GCN做推荐问题有两个：1）随机负采样，其实是不准确的。2）正样本很稀疏。解决办法：1）用正样本的自监督学习DINO（不同的跳与跳相似。可以作为自监督的信号），通过只构建正样本对进行对比学习[借鉴CV及nlp中的方法；2）使用样本的多模态特征，提升item的潜在表示-FREEDOM i2i。
 
 ## 4  multi-business-domain 跨业务域场景建模，直播，短视频，电商，社交，金融。-zhuoxi（hyperspace）/kexin（强化学习）/wenhao 
-* 本次：和zhuoxi一起细化方案. recbole。 补一张图？
+* 本次：和zhuoxi一起细化方案. 补充实验；github代码：https://github.com/BZX667/Hyper_CDR/tree/main
 * 下次： @yuanfei强化人力问题
 * 参考文档：[readme page](https://github.com/xuanjixiao/onerec/blob/onerecv2/onerec_v2/docs/onerecv2_multi_domain.md)
 * 方案简介：1）使用域迁移，把domain1的u2u关系迁移到domain2，解决domain1的新用户问题。2）中间使用
